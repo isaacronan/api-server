@@ -6,7 +6,7 @@ const btoa = require('btoa');
 const CONSUMER_KEY = encodeURIComponent(''); // insert key here
 const CONSUMER_SECRET = encodeURIComponent(''); // insert secret here
 const CREDENTIALS = btoa(`${CONSUMER_KEY}:${CONSUMER_SECRET}`);
-const EXPIRATION_THRESHOLD = 10 * 1000
+const EXPIRATION_THRESHOLD = 0;
 
 let access_token = null;
 let expiration_time = null;
